@@ -1,0 +1,26 @@
+Coding for SQL Murder Mystery found at: https://mystery.knightlab.com
+
+SELECT * from crime_scene_report
+WHERE type = 'murder'
+and date = 20180115
+and city = 'SQL City'
+ 
+
+ 
+SELECT * from person as p
+JOIN interview as i
+                ON p.id = i.person_id
+WHERE (address_street_name = "Franklin Ave"
+and name like "Annabel%") or
+(address_street_name like "Northwestern Dr")
+ GROUP BY address_street_name HAVING MAX(address_number)
+
+ 
+SELECT d.id as license_id, p.id as person_id, p.name, d.plate_number, m.id as membership_id from drivers_license as d
+JOIN person as p
+                ON p.license_id = d.id
+JOIN get_fit_now_member as m
+                ON p.id = m.person_id
+JOIN get_fit_now_check_in as f
+                on m.id = f.membership_id
+Where m.id like "48z%" and d.plate_number like "%H42W%" and check_in_date = 20180109
