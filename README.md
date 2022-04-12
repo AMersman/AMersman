@@ -1,10 +1,3 @@
-- 👋 Hi, I’m @AMersman
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ... python, jupyter, machine learning, statistics, numpy, statistics
-- 💞️ I’m looking to collaborate on ... 
-- 📫 How to reach me ... 
+I'm a Data Science Fellow at Springboard working on Machine Learning. I have spent the past 11 years as an analytical chemist and the past 5 years focusing on Data Analysis using SQL and Excel for Dashboards and Data Visualization. I have a passion for finding solutions and data cleaning. I enjoy puzzles and that means I like finding pieces that fit together even when the work is tedious. 
 
-<!---
-AMersman/AMersman is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I know SQL and python and love using Tableau to create Data Visualizations.
